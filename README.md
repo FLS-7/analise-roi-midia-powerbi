@@ -1,4 +1,4 @@
-# Análise de ROI de Mídia com Power BI
+# Análise ROI de Mídia com Power BI
 
 ![Status](https://img.shields.io/badge/status-concluído-brightgreen)
 
