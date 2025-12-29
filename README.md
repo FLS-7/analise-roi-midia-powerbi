@@ -1,67 +1,67 @@
-# Análise ROI de Mídia com Power BI
+# Media ROI Analysis with Power BI
 
 ![Status](https://img.shields.io/badge/status-concluído-brightgreen)
 
-> Projeto de portfólio que demonstra a criação de um dashboard executivo para análise de Retorno Sobre o Investimento (ROI) em diferentes canais de marketing.
+> Portfolio project demonstrating the creation of an executive dashboard for analyzing Return on Investment (ROI) across different marketing channels.
 
-![Dashboard de Análise de ROI](https://i.imgur.com/hKIlbl3.png)
-
----
-
-## 🎯 Problema de Negócio
-
-A diretoria de uma empresa precisava de clareza sobre a eficácia de seus investimentos em publicidade, que eram historicamente alocados com base na tradição, e não em dados. O objetivo deste projeto foi responder às seguintes perguntas de negócio:
-
-*   Qual é a relação entre o investimento em cada canal de mídia (TV, Rádio, Jornal) e as vendas?
-*   Qual canal é o mais eficiente em gerar retorno e qual é o menos eficiente?
-*   Como o orçamento de marketing deve ser realocado para maximizar as vendas futuras?
+![ROI Analysis Dashboard](https://i.imgur.com/hKIlbl3.png)
 
 ---
 
-## 📊 Fonte de Dados
+## 🎯 Business Problem
 
-Os dados utilizados neste projeto são um conjunto de dados públicos clássicos sobre publicidade, contendo os investimentos em três canais de mídia distintos e as vendas resultantes. O dataset está disponível no Kaggle.
+A company's board of directors needed clarity on the effectiveness of its advertising investments, which were historically allocated based on tradition rather than data. The goal of this project was to answer the following business questions:
 
-*   **Link para os dados:** [Advertising Kaggle Dataset](https://www.kaggle.com/datasets/ashydv/advertising-dataset)
-
----
-
-## 🛠️ Ferramentas Utilizadas
-
-*   **Microsoft Power BI:** Ferramenta principal para ETL, modelagem, criação de medidas e visualização de dados.
-*   **DAX (Data Analysis Expressions):** Utilizada para a criação das métricas e KPIs principais, como:
-    *   `Investimento Total`
-    *   `Total Vendas`
-    *   `Custo por Venda`
-*   **Power Query:** Utilizado para a ingestão e verificação da qualidade dos dados.
+* What is the relationship between investment in each media channel (TV, Radio, Newspaper) and sales?
+* Which channel is the most efficient in generating return and which is the least efficient?
+* How should the marketing budget be reallocated to maximize future sales?
 
 ---
 
-## 💡 Análise, Insights e Recomendações
+## 📊 Data Source
 
-A análise do dashboard permitiu a extração de insights acionáveis que podem guiar a estratégia de marketing da empresa de forma muito mais eficiente.
+The data used in this project is a classic public dataset on advertising, containing investments in three different media channels and the resulting sales. The dataset is available on Kaggle.
 
-### 1. TV: O Motor Principal de Vendas
-*   **Insight:** O gráfico de dispersão revela uma **forte e clara correlação positiva** entre o investimento em TV e as vendas. A linha de tendência ascendente mostra que, de forma consistente, quanto mais se investe em TV, mais as vendas aumentam.
-*   **Recomendação:** Manter a TV como o pilar da estratégia de mídia e o principal canal para investimentos robustos, dado seu retorno previsível e de grande escala.
-
-### 2. Jornal: O Canal Ineficaz
-*   **Insight:** A análise mostra uma **correlação muito fraca ou nula** entre os gastos com publicidade em jornais e as vendas. A nuvem de pontos é extremamente dispersa e a linha de tendência é quase plana, indicando que aumentar o orçamento neste canal não gera um aumento significativo ou confiável nas vendas.
-*   **Recomendação Estratégica:** **Reavaliar completamente o orçamento de Jornal.** Sugere-se a realocação de 90% a 100% desta verba para canais com performance comprovadamente superior (TV e Rádio), a fim de evitar o desperdício de recursos e maximizar o ROI total.
-
-### 3. Rádio: A Oportunidade Oculta
-*   **Insight:** Apesar de receber a menor fatia do investimento total (aproximadamente 11%), o Rádio apresenta uma **correlação positiva e mais forte que a do Jornal**. Isso indica que, embora em menor escala que a TV, o Rádio é um canal eficiente.
-*   **Recomendação:** O Rádio representa a maior **oportunidade de crescimento otimizado**. Recomenda-se aumentar experimentalmente o investimento neste canal, utilizando parte da verba realocada do Jornal. É provável que o Rádio gere um retorno sobre o investimento superior ao que é observado atualmente.
+* **Link to the data:** [Advertising Kaggle Dataset](https://www.kaggle.com/datasets/ashydv/advertising-dataset)
 
 ---
 
-## 🖱️ Interatividade do Dashboard
+## 🛠️ Tools Used
 
-O dashboard conta com **filtros interativos (sliders)** para cada um dos três canais de mídia. Esta funcionalidade permite que a diretoria e os gestores de marketing explorem diferentes cenários de investimento em tempo real, observando o impacto direto no total de vendas e no custo por venda para diferentes faixas de orçamento.
+*   **Microsoft Power BI:** Main tool for ETL, modeling, creating measures, and data visualization.
+*   **DAX (Data Analysis Expressions):** Used to create key metrics and KPIs, such as:
+*   `Total Investment`
+*   `Total Sales`
+    *   `Cost per Sale`
+*   **Power Query:** Used for data ingestion and quality verification.
 
 ---
 
-## 👨‍💻 Autor
+## 💡 Analysis, Insights, and Recommendations
+
+The dashboard analysis allowed us to extract actionable insights that can guide the company's marketing strategy much more efficiently.
+
+### 1. TV: The Main Sales Driver
+* **Insight:** The scatter plot reveals a **strong and clear positive correlation** between TV investment and sales. The upward trend line shows that, consistently, the more you invest in TV, the more sales increase.
+*   **Recommendation:** Maintain TV as the pillar of the media strategy and the main channel for robust investments, given its predictable and large-scale return.
+
+### 2. Newspapers: The Ineffective Channel
+*   **Insight:** The analysis shows a **very weak or non-existent correlation** between newspaper advertising spending and sales. The scatter plot is extremely dispersed and the trend line is almost flat, indicating that increasing the budget for this channel does not generate a significant or reliable increase in sales.
+*   **Strategic Recommendation:** **Completely reevaluate the Newspaper budget.** We suggest reallocating 90% to 100% of this budget to channels with proven superior performance (TV and Radio) in order to avoid wasting resources and maximize total ROI.
+
+### 3. Radio: The Hidden Opportunity
+*   **Insight:** Despite receiving the smallest share of total investment (approximately 11%), Radio shows a **positive correlation that is stronger than that of Newspapers**. This indicates that, although on a smaller scale than TV, Radio is an efficient channel.
+*   **Recommendation:** Radio represents the greatest **opportunity for optimized growth**. It is recommended to experimentally increase investment in this channel, using part of the budget reallocated from newspapers. Radio is likely to generate a higher return on investment than is currently observed.
+
+---
+
+## 🖱️ Dashboard Interactivity
+
+The dashboard features **interactive filters (sliders)** for each of the three media channels. This functionality allows executives and marketing managers to explore different investment scenarios in real time, observing the direct impact on total sales and cost per sale for different budget ranges.
+
+---
+
+## 👨‍💻 Author
 
 *   **[Flávio Sales]**
 *   **LinkedIn:** [https://www.linkedin.com/in/flávio-sales-a67663266/](https://www.linkedin.com/in/flávio-sales-a67663266/)
