@@ -2,6 +2,10 @@
 
 ![Status](https://img.shields.io/badge/status-concluído-brightgreen)
 
+<p align="center">
+  <b>Leia em Português:</b> <a href="README-PT.md">🇧🇷 Português</a>
+</p>
+
 > Portfolio project demonstrating the creation of an executive dashboard for analyzing Return on Investment (ROI) across different marketing channels.
 
 ![ROI Analysis Dashboard](https://i.imgur.com/hKIlbl3.png)
